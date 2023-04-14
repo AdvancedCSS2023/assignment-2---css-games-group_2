@@ -4,3 +4,9 @@
     background-color: red;
     height: 25px;
   }
+
+.wall-top {
+    width: 90vw;
+    right: 0;
+    top: 25%;
+  }
