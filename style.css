@@ -1,0 +1,6 @@
+.wall {
+    position: fixed;
+    top: 25%;
+    background-color: red;
+    height: 25px;
+  }
