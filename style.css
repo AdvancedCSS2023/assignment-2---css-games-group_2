@@ -27,7 +27,7 @@
     animation: chase 6s infinite linear alternate;
   }
   
-  .cat img {
+.cat img {
     height: 70px;
     width: 150px;
     margin-left: 100px;
@@ -50,6 +50,34 @@
       transform: translate(-1000px, -10vh) scaleX(1);
     }
   }
+
+.cat:nth-of-type(1) {
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
+
+.cat:nth-of-type(2) {
+  animation-duration: 8s;
+}
+
+.cat:nth-of-type(3) {
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+.cat:nth-of-type(4) {
+  animation-duration: 19s;
+}
+
+.cat:nth-of-type(5) {
+  animation-duration: 8s;
+  animation-delay: 5s;
+}
+
+.cat:nth-of-type(6) {
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+}
 
   /* SHNIZANA */
 
