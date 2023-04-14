@@ -5,8 +5,14 @@
     height: 25px;
   }
 
-.wall-top {
+.wall--top {
     width: 90vw;
     right: 0;
     top: 25%;
+  }
+
+.wall--bottom {
+    width: 90vw;
+    right: 0;
+    top: 75%;
   }
