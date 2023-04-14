@@ -18,6 +18,15 @@
     top: 75%;
   }
 
+.cat {
+    position: fixed;
+    top: 50%;
+    margin-top: -35px;
+    margin-right: 100px;
+    animation: chase 6s infinite linear alternate;
+    right: 0;
+  }
+
   /* SHNIZANA */
 
   /* CHRIS */
