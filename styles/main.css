@@ -2,6 +2,10 @@
   background-color: rgb(0, 0, 0);
 }
 
+.pipe {
+  background-color: rgb(168, 168, 168);
+}
+
 .door {
   position: fixed;
   top: 29%;
@@ -39,6 +43,14 @@
 
 .mousetrap--fifth {
   transform: translateY(30vh) translateX(-30vw);
+}
+
+.pipe {
+  position: fixed;
+  width: 90vw;
+  height: 46vh;
+  right: 0;
+  top: 29vh;
 }
 
 .door {

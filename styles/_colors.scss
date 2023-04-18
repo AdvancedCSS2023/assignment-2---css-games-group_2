@@ -1,5 +1,10 @@
 $doorColor: rgb(0, 0, 0);
+$pipeColor: rgb(168, 168, 168);
 
 .door {
   background-color: $doorColor;
+}
+
+.pipe {
+  background-color: $pipeColor;
 }
