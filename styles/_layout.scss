@@ -1,0 +1,57 @@
+.door {
+  position: fixed;
+  top: 29%;
+  width: 25px;
+  height: 45%;
+  margin-left: 9.41%;
+  z-index: 3;
+}
+
+.mousetrap {
+  position: fixed;
+  right: 0;
+}
+.mousetrap img {
+  width: 70px;
+  height: 50px;
+}
+
+.mousetrap--first {
+  transform: translateY(30vh) translateX(-65vw);
+}
+.mousetrap--second {
+  transform: translateY(63vh) translateX(-67vw);
+}
+.mousetrap--third {
+  transform: translateY(45vh) translateX(-50vw);
+}
+.mousetrap--fourth {
+  transform: translateY(65vh) translateX(-40vw);
+}
+.mousetrap--fifth {
+  transform: translateY(30vh) translateX(-30vw);
+}
+
+.pipe {
+  position: fixed;
+  width: 90vw;
+  height: 46vh;
+  right: 0;
+  top: 29vh;
+}
+
+.pipehole {
+  position: fixed;
+  width: 20vw;
+  height: 35vw;
+  top: 12vh;
+  z-index: 2;
+}
+
+.pipehole:hover ~ .pipe {
+  z-index: -100;
+}
+
+.pipe:hover {
+  z-index: -100;
+}

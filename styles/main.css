@@ -1,1 +1,102 @@
-/*# sourceMappingURL=main.css.map */
+.door {
+  background-color: rgb(0, 0, 0);
+}
+
+.pipe {
+  background-color: rgb(168, 168, 168);
+}
+
+.pipehole {
+  background-color: black;
+  border: rgb(103, 103, 103);
+}
+
+.door {
+  position: fixed;
+  top: 29%;
+  width: 25px;
+  height: 45%;
+  margin-left: 9.41%;
+  z-index: 3;
+}
+
+.mousetrap {
+  position: fixed;
+  right: 0;
+}
+
+.mousetrap img {
+  width: 70px;
+  height: 50px;
+}
+
+.mousetrap--first {
+  transform: translateY(30vh) translateX(-65vw);
+}
+
+.mousetrap--second {
+  transform: translateY(63vh) translateX(-67vw);
+}
+
+.mousetrap--third {
+  transform: translateY(45vh) translateX(-50vw);
+}
+
+.mousetrap--fourth {
+  transform: translateY(65vh) translateX(-40vw);
+}
+
+.mousetrap--fifth {
+  transform: translateY(30vh) translateX(-30vw);
+}
+
+.pipe {
+  position: fixed;
+  width: 90vw;
+  height: 46vh;
+  right: 0;
+  top: 29vh;
+}
+
+.pipehole {
+  position: fixed;
+  width: 20vw;
+  height: 35vw;
+  top: 12vh;
+  z-index: 2;
+}
+
+.pipehole:hover ~ .pipe {
+  z-index: -100;
+}
+
+.pipe:hover {
+  z-index: -100;
+}
+
+.door {
+  animation: open 1.2s both 1.5s;
+}
+
+@keyframes open {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+.pipe:hover {
+  opacity: 70%;
+}
+
+.pipehole {
+  opacity: 0.7;
+  border-radius: 50%;
+  border: solid 4vw;
+}
+
+.pipehole:hover ~ .pipe {
+  opacity: 70%;
+}/*# sourceMappingURL=main.css.map */
