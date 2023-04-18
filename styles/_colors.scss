@@ -1,5 +1,7 @@
 $doorColor: rgb(0, 0, 0);
 $pipeColor: rgb(168, 168, 168);
+$blackColor: black;
+$mazeWallsColor: rgb(103, 103, 103);
 
 .door {
   background-color: $doorColor;
@@ -8,3 +10,8 @@ $pipeColor: rgb(168, 168, 168);
 .pipe {
   background-color: $pipeColor;
 }
+
+.pipehole {
+    background-color: $blackColor;
+    border: $mazeWallsColor;
+  }

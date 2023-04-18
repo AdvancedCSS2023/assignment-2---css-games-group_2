@@ -39,3 +39,11 @@
     right: 0;
     top: 29vh;
   }
+
+  .pipehole { 
+    position: fixed;
+    width: 20vw;
+    height: 35vw;
+    top: 12vh;
+    z-index: 2;
+  }
