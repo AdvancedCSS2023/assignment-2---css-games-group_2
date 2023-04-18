@@ -2,6 +2,9 @@ $doorColor: rgb(0, 0, 0);
 $pipeColor: rgb(168, 168, 168);
 $blackColor: black;
 $mazeWallsColor: rgb(103, 103, 103);
+$winColor: darkslategray;
+$lostColor: rgb(186, 33, 33);
+$whiteColor: white;
 
 .door {
   background-color: $doorColor;
@@ -14,4 +17,17 @@ $mazeWallsColor: rgb(103, 103, 103);
 .pipehole {
     background-color: $blackColor;
     border: $mazeWallsColor;
+  }
+
+  .you-lost,
+  .you-win {
+    color: $whiteColor;
+  }
+  
+  .you-lost {
+    background: linear-gradient($lostColor, $blackColor);
+  }
+  
+  .you-win {
+    background: linear-gradient($winColor, $blackColor);
   }
