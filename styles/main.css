@@ -11,6 +11,24 @@
   border: rgb(103, 103, 103);
 }
 
+.you-lost,
+.you-win {
+  color: white;
+}
+
+.you-lost {
+  background: linear-gradient(rgb(186, 33, 33), black);
+}
+
+.you-win {
+  background: linear-gradient(darkslategray, black);
+}
+
+.you-lost,
+.you-win {
+  font-size: 4rem;
+}
+
 .door {
   position: fixed;
   top: 29%;
@@ -74,11 +92,6 @@
   z-index: -100;
 }
 
-
-* {
-  cursor: url("../img/mouse-alive.png") 90 33, auto;
-}
-
 .goal {
   position: fixed;
   bottom: 0;
@@ -89,7 +102,22 @@
 .goal img {
   height: 150px;
   width: 150px;
+}
 
+.you-lost,
+.you-win {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+* {
+  cursor: url("../img/mouse-alive.png") 90 33, auto;
 }
 
 .door {
