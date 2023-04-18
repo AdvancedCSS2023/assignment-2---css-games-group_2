@@ -7,7 +7,7 @@
 .door {
     animation: open 1.2s both 1.5s;
   }
-  
+
 @keyframes open {
     from {
       opacity: 1;
@@ -17,3 +17,5 @@
       pointer-events: none;
     }
   }
+
+  

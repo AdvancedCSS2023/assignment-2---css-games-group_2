@@ -11,6 +11,16 @@
   z-index: 3;
 }
 
+.mousetrap {
+  position: fixed;
+  right: 0;
+}
+
+.mousetrap img {
+  width: 70px;
+  height: 50px;
+}
+
 .door {
   animation: open 1.2s both 1.5s;
 }
