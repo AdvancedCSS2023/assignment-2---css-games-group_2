@@ -33,17 +33,25 @@
 }
 
 .pipe {
-    position: fixed;
-    width: 90vw;
-    height: 46vh;
-    right: 0;
-    top: 29vh;
-  }
+  position: fixed;
+  width: 90vw;
+  height: 46vh;
+  right: 0;
+  top: 29vh;
+}
 
-  .pipehole { 
-    position: fixed;
-    width: 20vw;
-    height: 35vw;
-    top: 12vh;
-    z-index: 2;
-  }
+.pipehole {
+  position: fixed;
+  width: 20vw;
+  height: 35vw;
+  top: 12vh;
+  z-index: 2;
+}
+
+.pipehole:hover ~ .pipe {
+  z-index: -100;
+}
+
+.pipe:hover {
+  z-index: -100;
+}
