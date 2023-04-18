@@ -2,6 +2,10 @@
 @import "_font.scss";
 @import "_layout.scss";
 
+* {
+  cursor: url("../img/mouse-alive.png") 90 33, auto;
+}
+
 .door {
   animation: open 1.2s both 1.5s;
 }
