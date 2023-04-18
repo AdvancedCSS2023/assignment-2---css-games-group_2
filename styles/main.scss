@@ -1,3 +1,16 @@
 @import "_colors.scss";
 @import "_font.scss";
 @import "_layout.scss";
+
+
+
+
+@keyframes open {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
