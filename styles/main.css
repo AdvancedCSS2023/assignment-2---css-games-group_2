@@ -24,6 +24,10 @@
   background: linear-gradient(darkslategray, black);
 }
 
+.btn--refresh {
+  color: rgb(103, 103, 103);
+}
+
 .you--lost,
 .you--win {
   font-size: 4rem;
@@ -136,6 +140,14 @@
 .mousetrap--fourth:hover ~ .you--lost,
 .mousetrap--fifth:hover ~ .you--lost {
   top: 0;
+}
+
+.btn--refresh {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 2%;
+  padding: 0.6rem 0.8rem;
 }
 
 * {
