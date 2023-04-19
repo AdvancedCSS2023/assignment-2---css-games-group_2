@@ -9,3 +9,7 @@ This project is the "Mouse Game". The Mouse Game player is in a role of a mouse 
 ## Why the project is useful
 
 Such a game can be interesting for children who are beginning to understand and learn about their world. The mouse game develops and stimulates imagination, thinking, and hand motility. Manipulation with a computer mouse or touchpad develops hand motility well. Also, the game implements a true idea about the animal world (the relationship between cats and mice) and also shows what a mousetrap is and its danger (for children too, so a child will not touch it if he sees it somewhere). However, the "Mouse Game" is also a good solution for adults to take a break from difficult and stressful work.
+
+## How users can get started with the project
+
+To start the game, the user must open the game and set the mouse in the field of view (gray field) as the "mouse" player and wait until the front gate opens and the game starts.
