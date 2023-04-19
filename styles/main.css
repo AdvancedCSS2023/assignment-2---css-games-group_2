@@ -28,6 +28,10 @@
   color: rgb(103, 103, 103);
 }
 
+.btn--refresh:hover {
+  box-shadow: rgb(222, 218, 218), black;
+}
+
 .you--lost,
 .you--win {
   font-size: 4rem;

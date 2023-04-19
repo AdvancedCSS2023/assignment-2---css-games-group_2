@@ -5,6 +5,7 @@ $mazeWallsColor: rgb(103, 103, 103);
 $winColor: darkslategray;
 $lostColor: rgb(186, 33, 33);
 $whiteColor: white;
+$btnColor: rgb(222, 218, 218);
 
 .door {
   background-color: $doorColor;
@@ -15,23 +16,27 @@ $whiteColor: white;
 }
 
 .pipehole {
-    background-color: $blackColor;
-    border: $mazeWallsColor;
-  }
+  background-color: $blackColor;
+  border: $mazeWallsColor;
+}
 
 .you--lost,
 .you--win {
-    color: $whiteColor;
-  }
-  
+  color: $whiteColor;
+}
+
 .you--lost {
-    background: linear-gradient($lostColor, $blackColor);
-  }
-  
+  background: linear-gradient($lostColor, $blackColor);
+}
+
 .you--win {
-    background: linear-gradient($winColor, $blackColor);
-  }
+  background: linear-gradient($winColor, $blackColor);
+}
 
 .btn--refresh {
-    color: $mazeWallsColor;
-  }
+  color: $mazeWallsColor;
+}
+
+.btn--refresh:hover {
+  box-shadow: $btnColor, $blackColor;
+}
