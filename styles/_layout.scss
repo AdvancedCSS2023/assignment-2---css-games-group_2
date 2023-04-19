@@ -68,8 +68,8 @@
   width: 150px;
 }
 
-.you-lost,
-.you-win {
+.you--lost,
+.you--win {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -78,4 +78,26 @@
   align-items: center;
   justify-content: center;
   z-index: 5;
+}
+
+.you--win:hover,
+.cat:hover ~ .you--win,
+.you--win:hover,
+.wall:hover ~ .you--win,
+.goal:hover ~ .you--win  {
+  top: 0;
+}
+
+.you--lost:hover,
+.cat:hover ~ .you--lost,
+.you--lost:hover,
+.wall:hover ~ .you--lost,
+.you--lost:hover,
+.door:hover ~ .you--lost,
+.mousetrap--first:hover ~ .you--lost,
+.mousetrap--second:hover ~ .you--lost,
+.mousetrap--third:hover ~ .you--lost,
+.mousetrap--fourth:hover ~ .you--lost,
+.mousetrap--fifth:hover ~ .you--lost {
+  top: 0;
 }

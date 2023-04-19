@@ -11,21 +11,21 @@
   border: rgb(103, 103, 103);
 }
 
-.you-lost,
-.you-win {
+.you--lost,
+.you--win {
   color: white;
 }
 
-.you-lost {
+.you--lost {
   background: linear-gradient(rgb(186, 33, 33), black);
 }
 
-.you-win {
+.you--win {
   background: linear-gradient(darkslategray, black);
 }
 
-.you-lost,
-.you-win {
+.you--lost,
+.you--win {
   font-size: 4rem;
 }
 
@@ -104,8 +104,8 @@
   width: 150px;
 }
 
-.you-lost,
-.you-win {
+.you--lost,
+.you--win {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -114,6 +114,28 @@
   align-items: center;
   justify-content: center;
   z-index: 5;
+}
+
+.you--win:hover,
+.cat:hover ~ .you--win,
+.you--win:hover,
+.wall:hover ~ .you--win,
+.goal:hover ~ .you--win {
+  top: 0;
+}
+
+.you--lost:hover,
+.cat:hover ~ .you--lost,
+.you--lost:hover,
+.wall:hover ~ .you--lost,
+.you--lost:hover,
+.door:hover ~ .you--lost,
+.mousetrap--first:hover ~ .you--lost,
+.mousetrap--second:hover ~ .you--lost,
+.mousetrap--third:hover ~ .you--lost,
+.mousetrap--fourth:hover ~ .you--lost,
+.mousetrap--fifth:hover ~ .you--lost {
+  top: 0;
 }
 
 * {
@@ -145,4 +167,33 @@
 
 .pipehole:hover ~ .pipe {
   opacity: 70%;
+}
+
+.you--lost:hover,
+.cat:hover ~ .you--lost,
+.you-lost:hover,
+.wall:hover ~ .you--lost,
+.you--lost:hover,
+.door:hover ~ .you--lost,
+.mousetrap--first:hover ~ .you--lost,
+.mousetrap--second:hover ~ .you--lost,
+.mousetrap--third:hover ~ .you--lost,
+.mousetrap--fourth:hover ~ .you--lost,
+.mousetrap--fifth:hover ~ .you--lost {
+  animation-play-state: paused;
+  cursor: url("../img/mouse-dead.png") 90 33, auto;
+}
+
+.you--win:hover,
+.cat:hover ~ .you--win,
+.you--win:hover,
+.wall:hover ~ .you--win,
+.goal:hover ~ .you--win {
+  animation-play-state: paused;
+  cursor: url("../img/mouse-alive.png") 90 33, auto;
+}
+
+.you--lost,
+.you--win {
+  animation-play-state: running;
 }/*# sourceMappingURL=main.css.map */
