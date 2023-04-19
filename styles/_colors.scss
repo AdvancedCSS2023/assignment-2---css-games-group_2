@@ -31,3 +31,7 @@ $whiteColor: white;
 .you--win {
     background: linear-gradient($winColor, $blackColor);
   }
+
+.btn--refresh {
+    color: $mazeWallsColor;
+  }
