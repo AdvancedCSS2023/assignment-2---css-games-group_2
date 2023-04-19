@@ -19,15 +19,15 @@ $whiteColor: white;
     border: $mazeWallsColor;
   }
 
-  .you-lost,
-  .you-win {
+.you--lost,
+.you--win {
     color: $whiteColor;
   }
   
-  .you-lost {
+.you--lost {
     background: linear-gradient($lostColor, $blackColor);
   }
   
-  .you-win {
+.you--win {
     background: linear-gradient($winColor, $blackColor);
   }

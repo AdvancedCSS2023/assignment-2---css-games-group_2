@@ -33,3 +33,32 @@
 .pipehole:hover ~ .pipe {
   opacity: 70%;
 }
+
+.you--lost:hover,
+.cat:hover ~ .you--lost,
+.you-lost:hover,
+.wall:hover ~ .you--lost,
+.you--lost:hover,
+.door:hover ~ .you--lost,
+.mousetrap--first:hover ~ .you--lost,
+.mousetrap--second:hover ~ .you--lost,
+.mousetrap--third:hover ~ .you--lost,
+.mousetrap--fourth:hover ~ .you--lost,
+.mousetrap--fifth:hover ~ .you--lost {
+  animation-play-state: paused;
+  cursor: url("../img/mouse-dead.png") 90 33, auto;
+}
+
+.you--win:hover,
+.cat:hover ~ .you--win,
+.you--win:hover,
+.wall:hover ~ .you--win,
+.goal:hover ~ .you--win {
+  animation-play-state: paused;
+  cursor: url("../img/mouse-alive.png") 90 33, auto;
+}
+
+.you--lost,
+.you--win {
+  animation-play-state: running;
+}
