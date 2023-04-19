@@ -33,6 +33,12 @@
   font-size: 4rem;
 }
 
+.btn--refresh {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .door {
   position: fixed;
   top: 29%;
