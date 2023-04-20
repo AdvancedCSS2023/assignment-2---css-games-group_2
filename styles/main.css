@@ -12,7 +12,6 @@ body {
 
 .pipehole {
   background-color: black;
-  border: rgb(103, 103, 103);
 }
 
 .you--lost,
@@ -226,9 +225,8 @@ body {
 }
 
 .pipehole {
-  opacity: 0.7;
   border-radius: 50%;
-  border: solid 4vw;
+  border: solid 4vw rgb(103, 103, 103);
 }
 
 .pipehole:hover ~ .pipe {
@@ -320,5 +318,17 @@ body {
   }
   100% {
     transform: translate(-1000px, -10vh) scaleX(1);
+  }
+}
+.pipehole:hover {
+  animation: fade 2s both;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
   }
 }/*# sourceMappingURL=main.css.map */
