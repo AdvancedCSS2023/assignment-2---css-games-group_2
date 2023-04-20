@@ -109,3 +109,21 @@
   margin: 2%;
   padding: 0.6rem 0.8rem;
 }
+
+.wall {
+  position: fixed;
+  top: 25%;
+  height: 4%;
+}
+
+.wall--top {
+  width: 90vw;
+  right: 0;
+  top: 25%;
+}
+
+.wall--bottom {
+  width: 90vw;
+  right: 0;
+  top: 75%;
+}

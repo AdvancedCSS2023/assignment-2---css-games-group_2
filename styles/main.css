@@ -32,6 +32,10 @@
   box-shadow: rgb(222, 218, 218), black;
 }
 
+.wall {
+  background-color: rgb(103, 103, 103);
+}
+
 .you--lost,
 .you--win {
   font-size: 4rem;
@@ -158,6 +162,24 @@
   top: 0;
   margin: 2%;
   padding: 0.6rem 0.8rem;
+}
+
+.wall {
+  position: fixed;
+  top: 25%;
+  height: 4%;
+}
+
+.wall--top {
+  width: 90vw;
+  right: 0;
+  top: 25%;
+}
+
+.wall--bottom {
+  width: 90vw;
+  right: 0;
+  top: 75%;
 }
 
 * {
