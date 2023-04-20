@@ -16,9 +16,11 @@ To start the game, the user must open the game and set the mouse in the field of
 
 ## Where users can get help with your project
 
-Users can get help with our project through comprehensive documentation that explains how to use the project, how it works, and any potential issues they may encounter. This documentation will be easily accessible and well-organized, so users can quickly find the information they need.
+We understand that using a new project can sometimes be overwhelming, which is why we offer several resources to help you navigate and troubleshoot any issues you may encounter.
 
-In addition, we will provide an email address where users can contact us directly for support. We will make sure to respond to emails promptly and provide helpful solutions to any issues they may be experiencing. This email support can provide users with a direct and personal way to get help with our project.
+First and foremost, our comprehensive documentation provides step-by-step instructions on how to use our project to prevent any misunderstanding. We've designed our documentation to be easily accessible and well-organized, so you can quickly find the information you need.
+
+If you need further assistance, we offer email support where you can contact us directly with any questions or concerns. We are dedicated to provide prompt and helpful solutions to any issues you may be experiencing.
 
 ## Which technology is used
 
