@@ -331,4 +331,16 @@ body {
   to {
     opacity: 0.7;
   }
+}
+.pipehole:not(:hover) {
+  animation: reverse-fade 2s both;
+}
+
+@keyframes reverse-fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=main.css.map */
