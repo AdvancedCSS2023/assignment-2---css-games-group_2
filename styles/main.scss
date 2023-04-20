@@ -74,3 +74,53 @@ body {
 .btn--refresh:hover {
   box-shadow: 0px 1px 3px, -2px 2px 4px;
 }
+
+.cat {
+  animation: chase 6s infinite linear alternate;
+}
+
+.cat:nth-of-type(1) {
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
+
+.cat:nth-of-type(2) {
+  animation-duration: 8s;
+}
+
+.cat:nth-of-type(3) {
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+.cat:nth-of-type(4) {
+  animation-duration: 19s;
+}
+
+.cat:nth-of-type(5) {
+  animation-duration: 8s;
+  animation-delay: 5s;
+}
+
+.cat:nth-of-type(6) {
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+}
+
+@keyframes chase {
+  0% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  25% {
+    transform: translate(-200px, 20vh) scaleX(-1);
+  }
+  50% {
+    transform: translate(-400px, -10vh) scaleX(1);
+  }
+  75% {
+    transform: translate(-800px, 18vh) scaleX(-1);
+  }
+  100% {
+    transform: translate(-1000px, -10vh) scaleX(1);
+  }
+}
