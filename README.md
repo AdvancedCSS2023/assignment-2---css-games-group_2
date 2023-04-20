@@ -13,3 +13,13 @@ Such a game can be interesting for children who are beginning to understand and 
 ## How users can get started with the project
 
 To start the game, the user must open the game and set the mouse in the field of view (gray field) as the "mouse" player and wait until the front gate opens and the game starts.
+
+## Where users can get help with your project
+
+Users can get help with our project through comprehensive documentation that explains how to use the project, how it works, and any potential issues they may encounter. This documentation will be easily accessible and well-organized, so users can quickly find the information they need.
+
+In addition, we will provide an email address where users can contact us directly for support. We will make sure to respond to emails promptly and provide helpful solutions to any issues they may be experiencing. This email support can provide users with a direct and personal way to get help with our project.
+
+## Which technology is used
+
+The technology used in this case is a combination of HTML, SCSS and BEM. HTML is used for the markup and structure of the web page. SCSS is a preprocessor for CSS that allows for more efficient and organized CSS code. BEM (Block, Element, Modifier) is a naming convention used to make CSS classes more descriptive and easier to understand. In this case, we are using an extention called live sass compiler to compile SCSS to CSS. Together, these technologies allow for the creation of a well-structured and maintainable web page.
