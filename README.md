@@ -23,3 +23,8 @@ In addition, we will provide an email address where users can contact us directl
 ## Which technology is used
 
 The technology used in this case is a combination of HTML, SCSS and BEM. HTML is used for the markup and structure of the web page. SCSS is a preprocessor for CSS that allows for more efficient and organized CSS code. BEM (Block, Element, Modifier) is a naming convention used to make CSS classes more descriptive and easier to understand. In this case, we are using an extention called live sass compiler to compile SCSS to CSS. Together, these technologies allow for the creation of a well-structured and maintainable web page.
+
+## Who maintains and contributes to the project
+
+
+There are three people working on the project (Edgar, Christopher and Snizhana). Therefore, all three of us are responsible for maintaining and contributing to the project. To ensure that all tasks are being taken care of and progress is being made, it's essential to establish clear roles and responsibilities among team members. We will also include this information in our project documentation, so users are aware of who to contact for support or to contribute to the project.
