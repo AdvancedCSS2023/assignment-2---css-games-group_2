@@ -2,10 +2,6 @@ body {
   background-color: rgb(235, 232, 226);
 }
 
-.door {
-  background-color: rgba(255, 0, 0, 0.8);
-}
-
 .pipe {
   background-color: rgb(168, 168, 168);
 }
@@ -48,15 +44,6 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 15px;
-}
-
-.door {
-  position: fixed;
-  top: 29%;
-  width: 5px;
-  height: 45.85%;
-  margin-left: 9.41%;
-  z-index: 3;
 }
 
 .mousetrap {
@@ -207,20 +194,6 @@ body {
   overflow: hidden;
 }
 
-.door {
-  animation: open 1.2s both 1.5s;
-}
-
-@keyframes open {
-  0% {
-    transform: scaleY(1);
-  }
-  100% {
-    transform: scaleY(0);
-    opacity: 0;
-    pointer-events: none;
-  }
-}
 .pipe:hover {
   opacity: 70%;
 }

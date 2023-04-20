@@ -1,5 +1,4 @@
 $backgroundColor: rgba(235, 232, 226);
-$doorColor: rgba(255, 0, 0, 0.8);
 $pipeColor: rgb(168, 168, 168);
 $blackColor: black;
 $mazeWallsColor: rgb(103, 103, 103);
@@ -10,10 +9,6 @@ $btnColor: rgb(171, 167, 167);
 
 body {
   background-color: $backgroundColor;
-}
-
-.door {
-  background-color: $doorColor;
 }
 
 .pipe {
