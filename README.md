@@ -24,7 +24,15 @@ If you need further assistance, we offer email support where you can contact us 
 
 ## Which technology is used
 
-The technology used in this case is a combination of HTML, SCSS and BEM. HTML is used for the markup and structure of the web page. SCSS is a preprocessor for CSS that allows for more efficient and organized CSS code. BEM (Block, Element, Modifier) is a naming convention used to make CSS classes more descriptive and easier to understand. In this case, we are using an extention called live sass compiler to compile SCSS to CSS. Together, these technologies allow for the creation of a well-structured and maintainable web page.
+Our project relies on several technologies to deliver a seamless user experience. One of the core technologies we use is HTML, which is used for the markup and structure of the page. HTML provides a solid foundation for the web page, allowing us to structure and organize content in a logical and intuitive manner.
+
+We also utilize SCSS, a preprocessor for CSS that allows for more efficient and organized code. SCSS extends the functionality of CSS, making it easier to write complex styles and maintain consistency across the entire web page. By using SCSS, we are able to write cleaner, more modular code that is easier to read and maintain.
+
+To further enhance our development process, we employ BEM (Block, Element, Modifier), a naming convention that makes CSS classes more descriptive and easier to understand. BEM provides a clear and consistent way of naming and organizing CSS classes, making it easier to create and manage complex styles across the entire web page.
+
+Finally, we use Live Sass Compiler, an extension that enables us to compile our SCSS code into CSS in real-time. This allows us to make changes to our SCSS code and see the results immediately, without the need for manual compilation. Live Sass Compiler streamlines our development process, enabling us to work more efficiently and productively.
+
+By using these technologies in combination, we are able to deliver a web page that is well-structured, maintainable, and highly functional.
 
 ## Who maintains and contributes to the project
 
