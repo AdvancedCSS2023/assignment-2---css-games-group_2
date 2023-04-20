@@ -127,3 +127,17 @@
   right: 0;
   top: 75%;
 }
+
+.cat {
+  position: fixed;
+  top: 50%;
+  margin-top: -35px; /* half of the cat's height */
+  margin-right: 100px;
+  right: 0;
+}
+
+.cat img {
+  height: 70px;
+  width: 150px;
+  margin-left: 100px;
+}
