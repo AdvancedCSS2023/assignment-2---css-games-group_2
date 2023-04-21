@@ -4,7 +4,7 @@
 
 ## What the project does
 
-This project is the "Mouse Game". The Mouse Game player is in a role of a mouse that needs to get to the cheese on the opposite side. Once the mouse is placed in the visible field of gray color, the player needs to wait until the front gate will be opened. From this moment the active game begins; the mouse must pass through a series of obstacles such as mousetraps and cats. Moreover, the mouse cannot go beyond the gates set for all objects. If the mouse is caught into a mousetrap or collides with a cat, it dies and the game is over; the game window closes in red with the inscription "You lost". You can click the "TRY AGAIN" button to play again. If the player reached the cheese, they will see the inscription "You win" and they can press the button "PLAY AGAIN" to play again.
+This project is the "Mouse Game". The Mouse Game player is in a role of a mouse that needs to get to the cheese on the opposite side. Once the mouse is placed in the pipe opening of gray color, the player needs to wait until the inside of the pipe will be opened. From this moment the active game begins; the mouse must pass through a series of obstacles such as mousetraps and cats. Moreover, the mouse cannot go beyond the gates set for all objects. If the mouse is caught into a mousetrap or collides with a cat, it dies and the game is over; the game window closes in red with the inscription "You lost". You can click the "TRY AGAIN" button to play again. If the player reached the cheese, they will see the inscription "You win" and they can press the button "PLAY AGAIN" to play again.
 
 ## Why the project is useful
 
@@ -12,7 +12,7 @@ Such a game can be interesting for children who are beginning to understand and 
 
 ## How users can get started with the project
 
-To start the game, the user must open the game and set the mouse in the field of view (gray field) as the "mouse" player and wait until the front gate opens and the game starts.
+First, the user should read the user documentation (this README file) with all instructions about the "Mouse Game"&. To start the game, the user must open the game and set the mouse in the pipe opening as the "mouse" player and wait until the inside of the pipe becomes visible for the user. Then the game starts.
 
 ## Where users can get help with your project
 
@@ -35,6 +35,5 @@ Finally, we use Live Sass Compiler, an extension that enables us to compile our 
 By using these technologies in combination, we are able to deliver a web page that is well-structured, maintainable, and highly functional.
 
 ## Who maintains and contributes to the project
-
 
 There are three people working on the project (Edgar, Christopher and Snizhana). Therefore, all three of us are responsible for maintaining and contributing to the project. To ensure that all tasks are being taken care of and progress is being made, it's essential to establish clear roles and responsibilities among team members. We will also include this information in our project documentation, so users are aware of who to contact for support or to contribute to the project.
