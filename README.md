@@ -12,7 +12,7 @@ Such a game can be interesting for children who are beginning to understand and 
 
 ## How users can get started with the project
 
-First, the user should read the user documentation (this README file) with all instructions about the "Mouse Game"&. To start the game, the user must open the game and set the mouse in the pipe opening as the "mouse" player and wait until the inside of the pipe becomes visible for the user. Then the game starts.
+First, the user should read the user documentation (this README file) with all instructions about the "Mouse Game". To start the game, the user must open the game and set the mouse in the pipe opening as the "mouse" player and wait until the inside of the pipe becomes visible for the user. Then the game starts.
 
 ## Where users can get help with your project
 
